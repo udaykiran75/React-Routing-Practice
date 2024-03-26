@@ -1,0 +1,58 @@
+.wave-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.nav-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.wave-logo-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.menu-details {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-right: 8px;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+}
+.link-element {
+  text-decoration: none;
+  color: #12022f;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 576px) {
+  .menu-details {
+    font-size: 14px;
+  }
+  .wave-logo {
+    height: 20px;
+    width: 20px;
+  }
+  .logo-name {
+    font-size: 15px;
+  }
+  .link-element {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}

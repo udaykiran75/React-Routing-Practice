@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.heading {
+  color: #551e53;
+  font-size: 60px;
+}
+.para {
+  font-family: Roboto;
+  font-size: 28px;
+}
+@media screen and (max-width: 576px) {
+  .home-image {
+    height: 200px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 18px;
+  }
+}
